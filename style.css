@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(166, 236, 255, 0.566);
+}
+
+h1 {
+    color: rgb(46, 18, 65);  
+    margin-left: 30vw;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+h2 {
+    color: rgb(80, 43, 105);
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 30vw;
+}
+
+.input {
+    width: 100%;
+    margin-top: 3%;
+}
+
+#button {
+    margin-top: 3%;
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    border: none;
+    color: rgb(64, 33, 94);
+}
+
+.comment {
+    white-space: pre-line;
+    color: rgb(255, 32, 143);
+    }
